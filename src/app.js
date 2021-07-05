@@ -23,6 +23,7 @@ add(3,8,function(err, result){
         console.log("Error add",err);
         return;
     }
+    console.log("Testing....")
     console.log("Add", result)
     sub(5, "gfghfghfgh", function(err, result2){
         if(err){
@@ -32,4 +33,3 @@ add(3,8,function(err, result){
         console.log("sub result",result2)
     })
 })
-
