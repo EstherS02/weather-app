@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+
+#createdBy {
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
